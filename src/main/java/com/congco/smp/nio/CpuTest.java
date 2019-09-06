@@ -6,4 +6,9 @@ package com.congco.smp.nio;
  * @author congco
  */
 public class CpuTest {
+
+    public static void main(String[] args) {
+        int i = Runtime.getRuntime().availableProcessors();
+        System.out.println(i);
+    }
 }
